@@ -5,7 +5,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: true, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        ai: true
     },
     'Briar': {
         recommended: true, e2e_default: true, e2e_available: true, voice_encrypted: null,
@@ -13,7 +14,8 @@ const appData = {
         decentralized: true, dns_independent: true, no_global_id: false, no_immutable: false,
         no_email: true, no_phone: true, good_jurisdiction: true, no_data_feed: true,
         no_preservation: true, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: null, deleted_removed: true, received_removed: null
+        airgapped: null, deleted_removed: true, received_removed: null,
+        moderation: true, ai: true
     },
     'Cabal': {
         recommended: false, e2e_default: false, e2e_available: true, voice_encrypted: null,
@@ -21,7 +23,8 @@ const appData = {
         decentralized: true, dns_independent: true, no_global_id: true, no_immutable: false,
         no_email: true, no_phone: true, good_jurisdiction: true, no_data_feed: true,
         no_preservation: true, no_scan: true, removes_metadata: null, no_location: true,
-        airgapped: true, deleted_removed: null, received_removed: null
+        airgapped: true, deleted_removed: null, received_removed: null,
+        ai: true
     },
     'Cwtch': {
         recommended: true, e2e_default: true, e2e_available: true, voice_encrypted: null,
@@ -29,7 +32,8 @@ const appData = {
         decentralized: true, dns_independent: true, no_global_id: false, no_immutable: false,
         no_email: true, no_phone: true, good_jurisdiction: true, no_data_feed: true,
         no_preservation: true, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: true, received_removed: null
+        airgapped: false, deleted_removed: true, received_removed: null,
+        moderation: true, ai: true
     },
     'Discord': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -37,7 +41,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: 0.5, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false, ai: false
     },
     'Dust': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: null,
@@ -45,7 +50,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: true, no_phone: true, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        ai: true
     },
     'Google Messages': {
         recommended: false, e2e_default: true, e2e_available: true, voice_encrypted: true,
@@ -61,7 +67,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: true, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false
     },
     'GroupMe': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -69,7 +76,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: true, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: true, received_removed: false
+        airgapped: false, deleted_removed: true, received_removed: false,
+        moderation: false
     },
     'iMessage': {
         recommended: false, e2e_default: true, e2e_available: true, voice_encrypted: true,
@@ -77,7 +85,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: true, good_jurisdiction: false, no_data_feed: false,
         no_preservation: true, no_scan: false, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: true, received_removed: true
+        airgapped: false, deleted_removed: true, received_removed: true,
+        moderation: false, ai: false
     },
     'Instagram DMs': {
         recommended: false, e2e_default: false, e2e_available: true, voice_encrypted: false,
@@ -85,7 +94,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: 0.5, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false, ai: false
     },
     'IRC': {
         recommended: false, e2e_default: false, e2e_available: 0.5, voice_encrypted: null,
@@ -93,7 +103,8 @@ const appData = {
         decentralized: true, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: true, no_phone: true, good_jurisdiction: true, no_data_feed: true,
         no_preservation: true, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: true, deleted_removed: false, received_removed: true
+        airgapped: true, deleted_removed: false, received_removed: true,
+        moderation: true, ai: true
     },
     'Kik': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -101,7 +112,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: true, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false
     },
     'LINE': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -117,7 +129,8 @@ const appData = {
         decentralized: true, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: 0.5, no_phone: 0.5, good_jurisdiction: true, no_data_feed: 0.5,
         no_preservation: 0.5, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: true, deleted_removed: false, received_removed: false
+        airgapped: true, deleted_removed: false, received_removed: false,
+        moderation: true, ai: true
     },
     'Mattermost': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -133,7 +146,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: 0.5, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false, ai: false
     },
     'New ICQ': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -157,7 +171,8 @@ const appData = {
         decentralized: 0.5, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: true, no_phone: true, good_jurisdiction: 0.7, no_data_feed: true,
         no_preservation: true, no_scan: true, removes_metadata: true, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: true
     },
     'SMS': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -165,7 +180,8 @@ const appData = {
         decentralized: 0.5, dns_independent: true, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: 0.5, no_data_feed: 0.5,
         no_preservation: 0.5, no_scan: true, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: 0.5, ai: true
     },
     'Signal': {
         recommended: true, e2e_default: true, e2e_available: true, voice_encrypted: true,
@@ -173,7 +189,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: true, no_phone: false, good_jurisdiction: false, no_data_feed: true,
         no_preservation: true, no_scan: true, removes_metadata: true, no_location: true,
-        airgapped: false, deleted_removed: true, received_removed: true
+        airgapped: false, deleted_removed: true, received_removed: true,
+        moderation: true, ai: true
     },
     'SimpleX Chat': {
         recommended: true, e2e_default: true, e2e_available: true, voice_encrypted: true,
@@ -181,7 +198,8 @@ const appData = {
         decentralized: true, dns_independent: true, no_global_id: true, no_immutable: true,
         no_email: true, no_phone: true, good_jurisdiction: true, no_data_feed: true,
         no_preservation: true, no_scan: true, removes_metadata: true, no_location: true,
-        airgapped: true, deleted_removed: true, received_removed: true
+        airgapped: true, deleted_removed: true, received_removed: true,
+        moderation: false, ai: true
     },
     'Snapchat': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -189,7 +207,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: 0.5, good_jurisdiction: false, no_data_feed: 0.5,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false, ai: false
     },
     'Status': {
         recommended: false, e2e_default: true, e2e_available: true, voice_encrypted: null,
@@ -197,7 +216,8 @@ const appData = {
         decentralized: 0.5, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: true, no_phone: true, good_jurisdiction: 0.3, no_data_feed: true,
         no_preservation: true, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: 0.5, received_removed: null
+        airgapped: false, deleted_removed: 0.5, received_removed: null,
+        moderation: true, ai: true
     },
     'Telegram': {
         recommended: false, e2e_default: false, e2e_available: 0.5, voice_encrypted: 0.5,
@@ -205,7 +225,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: 0.3, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: 0.5, received_removed: false
+        airgapped: false, deleted_removed: 0.5, received_removed: false,
+        moderation: false, ai: false
     },
     'Teams': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -213,7 +234,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: 0.5, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false, ai: false
     },
     'Threema': {
         recommended: false, e2e_default: true, e2e_available: true, voice_encrypted: true,
@@ -221,7 +243,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: true, no_phone: false, good_jurisdiction: 0.7, no_data_feed: true,
         no_preservation: false, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        ai: true
     },
     // NEW APPS FROM UPDATED TABLE
     'Tinder DMs': {
@@ -230,7 +253,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: true, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false
     },
     'Twitch DMs': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -238,7 +262,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: true, removes_metadata: false, no_location: true,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false
     },
     'Twitter DMs': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -246,7 +271,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: 0.5, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false
     },
     'WeChat': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -254,7 +280,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false, ai: false
     },
     'WhatsApp': {
         recommended: false, e2e_default: true, e2e_available: true, voice_encrypted: true,
@@ -262,7 +289,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: false, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: 0.5, received_removed: false
+        airgapped: false, deleted_removed: 0.5, received_removed: false,
+        moderation: false, ai: false
     },
     'Wire': {
         recommended: true, e2e_default: true, e2e_available: true, voice_encrypted: true,
@@ -278,7 +306,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: null, removes_metadata: 0.5, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false
     },
     'XMPP': {
         recommended: false, e2e_default: false, e2e_available: 0.5, voice_encrypted: false,
@@ -286,7 +315,8 @@ const appData = {
         decentralized: true, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: 0.5, no_data_feed: 0.5,
         no_preservation: 0.5, no_scan: true, removes_metadata: 0.5, no_location: 0.5,
-        airgapped: true, deleted_removed: true, received_removed: true
+        airgapped: true, deleted_removed: true, received_removed: true,
+        moderation: true, ai: true
     },
     'Zoom': {
         recommended: false, e2e_default: false, e2e_available: false, voice_encrypted: false,
@@ -294,7 +324,8 @@ const appData = {
         decentralized: false, dns_independent: false, no_global_id: false, no_immutable: false,
         no_email: false, no_phone: false, good_jurisdiction: false, no_data_feed: false,
         no_preservation: false, no_scan: true, removes_metadata: false, no_location: false,
-        airgapped: false, deleted_removed: false, received_removed: false
+        airgapped: false, deleted_removed: false, received_removed: false,
+        moderation: false, ai: false
     }
 };
 
