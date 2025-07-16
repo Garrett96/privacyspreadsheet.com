@@ -9,44 +9,45 @@ Result of [this scoring algorithm](score.js):
 
 COMPLETE MESSAGING APP PRIVACY & SECURITY SCORES (Updated Tiers)
 
-Rank | App Name        | Score     | Percentage | Tier
------|-----------------|-----------|------------|----------
- 1   | SimpleX Chat    | 23.0/23   | 100.0%     | Excellent
- 2   | Briar           | 17.0/20   | 85.0%      | Very Good
- 3   | Cwtch           | 17.0/21   | 81.0%      | Very Good
- 4   | Cabal           | 13.0/18   | 72.2%      | Good
- 5   | Signal          | 16.0/23   | 69.6%      | Good
- 6   | Status          | 12.3/20   | 61.5%      | Good
- 7   | Wire            | 13.0/23   | 56.5%      | Fair
- 8   | Session         | 12.7/23   | 55.2%      | Fair
- 9   | Matrix          | 12.0/23   | 52.2%      | Fair
-10   | IRC             | 10.5/22   | 47.7%      | Fair
-11   | Threema         | 10.7/23   | 46.5%      | Fair
-12   | iMessage        | 10.0/23   | 43.5%      | Poor
-13   | XMPP            | 9.5/23    | 41.3%      | Poor
-14   | Revolt          | 9.0/23    | 39.1%      | Poor
-15   | Mattermost      | 7.5/23    | 32.6%      | Poor
-16   | WhatsApp        | 7.5/23    | 32.6%      | Poor
-17   | Dust            | 5.0/22    | 22.7%      | Bad
-18   | Amino           | 5.0/23    | 21.7%      | Bad
-19   | Google Messages | 5.0/23    | 21.7%      | Bad
-20   | GroupMe         | 5.0/23    | 21.7%      | Bad
-21   | Telegram        | 4.8/23    | 20.9%      | Bad
-22   | Instagram DMs   | 4.5/23    | 19.6%      | Very Bad
-23   | FB Messenger    | 4.5/23    | 19.6%      | Very Bad
-24   | Teams           | 4.5/23    | 19.6%      | Very Bad
-25   | LINE            | 4.0/23    | 17.4%      | Very Bad
-26   | SMS             | 4.0/23    | 17.4%      | Very Bad
-27   | Twitch DMs      | 4.0/23    | 17.4%      | Very Bad
-28   | Discord         | 3.0/23    | 13.0%      | Very Bad
-29   | Zoom            | 3.0/23    | 13.0%      | Very Bad
-30   | New ICQ         | 2.5/23    | 10.9%      | Very Bad
-31   | Snapchat        | 2.5/23    | 10.9%      | Very Bad
-32   | Grindr DMs      | 2.0/23    | 8.7%       | Very Bad
-33   | Kik             | 2.0/23    | 8.7%       | Very Bad
-34   | Tinder DMs      | 2.0/23    | 8.7%       | Very Bad
-35   | Twitter DMs     | 1.8/23    | 7.8%       | Very Bad
-36   | Xbox Live       | 1.5/22    | 6.8%       | Very Bad
-37   | WeChat          | 0.5/23    | 2.2%       | Very Bad
+Rank | App Name        | Score     | Percentage | Tier 
+-----|-----------------|-----------|------------|---------- 
+ 1   | SimpleX Chat    | 24.0/25   | 96.0%      | Excellent 
+ 2   | Briar           | 19.0/22   | 86.4%      | Very Good 
+ 3   | Cwtch           | 19.0/23   | 82.6%      | Very Good 
+ 4   | Cabal           | 14.0/19   | 73.7%      | Good 
+ 5   | Signal          | 18.0/25   | 72.0%      | Good 
+ 6   | Status          | 14.3/22   | 65.0%      | Good 
+ 7   | Session         | 13.7/24   | 57.1%      | Fair 
+ 8   | Wire            | 13.0/23   | 56.5%      | Fair 
+ 9   | Matrix          | 14.0/25   | 56.0%      | Fair 
+10   | IRC             | 12.5/24   | 52.1%      | Fair 
+11   | Threema         | 11.7/24   | 48.8%      | Fair 
+12   | XMPP            | 11.5/25   | 46.0%      | Fair 
+13   | iMessage        | 10.0/25   | 40.0%      | Poor 
+14   | Revolt          | 9.0/23    | 39.1%      | Poor 
+15   | Mattermost      | 7.5/23    | 32.6%      | Poor 
+16   | WhatsApp        | 7.5/25    | 30.0%      | Poor 
+17   | Dust            | 6.0/23    | 26.1%      | Bad 
+18   | Amino           | 6.0/24    | 25.0%      | Bad 
+19   | SMS             | 5.5/25    | 22.0%      | Bad 
+20   | Google Messages | 5.0/23    | 21.7%      | Bad 
+21   | GroupMe         | 5.0/24    | 20.8%      | Bad 
+22   | Telegram        | 4.8/25    | 19.2%      | Very Bad 
+23   | Instagram DMs   | 4.5/25    | 18.0%      | Very Bad
+24   | FB Messenger    | 4.5/25    | 18.0%      | Very Bad 
+25   | Teams           | 4.5/25    | 18.0%      | Very Bad 
+26   | LINE            | 4.0/23    | 17.4%      | Very Bad 
+27   | Twitch DMs      | 4.0/24    | 16.7%      | Very Bad 
+28   | Discord         | 3.0/25    | 12.0%      | Very Bad 
+29   | Zoom            | 3.0/25    | 12.0%      | Very Bad 
+30   | New ICQ         | 2.5/23    | 10.9%      | Very Bad 
+31   | Snapchat        | 2.5/25    | 10.0%      | Very Bad 
+32   | Grindr DMs      | 2.0/24    | 8.3%       | Very Bad 
+33   | Kik             | 2.0/24    | 8.3%       | Very Bad 
+34   | Tinder DMs      | 2.0/24    | 8.3%       | Very Bad 
+35   | Twitter DMs     | 1.8/24    | 7.5%       | Very Bad 
+36   | Xbox Live       | 1.5/23    | 6.5%       | Very Bad 
+37   | WeChat          | 0.5/25    | 2.0%       | Very Bad 
+
 
 Total Apps Analyzed: 37
